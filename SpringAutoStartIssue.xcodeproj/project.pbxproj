@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5804541AAEA946002AEBF7 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5804381AAEA946002AEBF7 /* Spring.swift */; };
+		1A58045B1AAEA946002AEBF7 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A58043F1AAEA946002AEBF7 /* SpringView.swift */; };
+		1A5804601AAEAA32002AEBF7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A58045F1AAEAA32002AEBF7 /* DetailViewController.swift */; };
+		1A5804621AAEB2F9002AEBF7 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5804611AAEB2F9002AEBF7 /* UnwindSegue.swift */; };
 		1A9C8DBF1AAEA69C007C6156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C8DBE1AAEA69C007C6156 /* AppDelegate.swift */; };
 		1A9C8DC11AAEA69C007C6156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C8DC01AAEA69C007C6156 /* ViewController.swift */; };
 		1A9C8DC41AAEA69C007C6156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9C8DC21AAEA69C007C6156 /* Main.storyboard */; };
@@ -26,14 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A9C8DB91AAEA69C007C6156 /* TestAF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5804381AAEA946002AEBF7 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		1A58043F1AAEA946002AEBF7 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		1A58045F1AAEAA32002AEBF7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1A5804611AAEB2F9002AEBF7 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		1A9C8DB91AAEA69C007C6156 /* SpringAutoStartIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringAutoStartIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9C8DBD1AAEA69C007C6156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9C8DBE1AAEA69C007C6156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A9C8DC01AAEA69C007C6156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A9C8DC31AAEA69C007C6156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A9C8DC51AAEA69D007C6156 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A9C8DC81AAEA69D007C6156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1A9C8DCE1AAEA69D007C6156 /* TestAFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9C8DCE1AAEA69D007C6156 /* SpringAutoStartIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringAutoStartIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9C8DD31AAEA69D007C6156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9C8DD41AAEA69D007C6156 /* TestAFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAFTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,10 +64,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5804251AAEA946002AEBF7 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				1A5804611AAEB2F9002AEBF7 /* UnwindSegue.swift */,
+				1A5804381AAEA946002AEBF7 /* Spring.swift */,
+				1A58043F1AAEA946002AEBF7 /* SpringView.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
 		1A9C8DB01AAEA69C007C6156 = {
 			isa = PBXGroup;
 			children = (
-				1A9C8DBB1AAEA69C007C6156 /* TestAF */,
+				1A9C8DBB1AAEA69C007C6156 /* SpringAutoStartIssue */,
 				1A9C8DD11AAEA69D007C6156 /* TestAFTests */,
 				1A9C8DBA1AAEA69C007C6156 /* Products */,
 			);
@@ -68,22 +86,25 @@
 		1A9C8DBA1AAEA69C007C6156 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A9C8DB91AAEA69C007C6156 /* TestAF.app */,
-				1A9C8DCE1AAEA69D007C6156 /* TestAFTests.xctest */,
+				1A9C8DB91AAEA69C007C6156 /* SpringAutoStartIssue.app */,
+				1A9C8DCE1AAEA69D007C6156 /* SpringAutoStartIssueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A9C8DBB1AAEA69C007C6156 /* TestAF */ = {
+		1A9C8DBB1AAEA69C007C6156 /* SpringAutoStartIssue */ = {
 			isa = PBXGroup;
 			children = (
+				1A5804251AAEA946002AEBF7 /* Spring */,
 				1A9C8DBE1AAEA69C007C6156 /* AppDelegate.swift */,
 				1A9C8DC01AAEA69C007C6156 /* ViewController.swift */,
+				1A58045F1AAEAA32002AEBF7 /* DetailViewController.swift */,
 				1A9C8DC21AAEA69C007C6156 /* Main.storyboard */,
 				1A9C8DC51AAEA69D007C6156 /* Images.xcassets */,
 				1A9C8DC71AAEA69D007C6156 /* LaunchScreen.xib */,
 				1A9C8DBC1AAEA69C007C6156 /* Supporting Files */,
 			);
+			name = SpringAutoStartIssue;
 			path = TestAF;
 			sourceTree = "<group>";
 		};
@@ -115,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A9C8DB81AAEA69C007C6156 /* TestAF */ = {
+		1A9C8DB81AAEA69C007C6156 /* SpringAutoStartIssue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A9C8DD81AAEA69D007C6156 /* Build configuration list for PBXNativeTarget "TestAF" */;
+			buildConfigurationList = 1A9C8DD81AAEA69D007C6156 /* Build configuration list for PBXNativeTarget "SpringAutoStartIssue" */;
 			buildPhases = (
 				1A9C8DB51AAEA69C007C6156 /* Sources */,
 				1A9C8DB61AAEA69C007C6156 /* Frameworks */,
@@ -127,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = TestAF;
+			name = SpringAutoStartIssue;
 			productName = TestAF;
-			productReference = 1A9C8DB91AAEA69C007C6156 /* TestAF.app */;
+			productReference = 1A9C8DB91AAEA69C007C6156 /* SpringAutoStartIssue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A9C8DCD1AAEA69D007C6156 /* TestAFTests */ = {
+		1A9C8DCD1AAEA69D007C6156 /* SpringAutoStartIssueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A9C8DDB1AAEA69D007C6156 /* Build configuration list for PBXNativeTarget "TestAFTests" */;
+			buildConfigurationList = 1A9C8DDB1AAEA69D007C6156 /* Build configuration list for PBXNativeTarget "SpringAutoStartIssueTests" */;
 			buildPhases = (
 				1A9C8DCA1AAEA69D007C6156 /* Sources */,
 				1A9C8DCB1AAEA69D007C6156 /* Frameworks */,
@@ -145,9 +166,9 @@
 			dependencies = (
 				1A9C8DD01AAEA69D007C6156 /* PBXTargetDependency */,
 			);
-			name = TestAFTests;
+			name = SpringAutoStartIssueTests;
 			productName = TestAFTests;
-			productReference = 1A9C8DCE1AAEA69D007C6156 /* TestAFTests.xctest */;
+			productReference = 1A9C8DCE1AAEA69D007C6156 /* SpringAutoStartIssueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A9C8DB41AAEA69C007C6156 /* Build configuration list for PBXProject "TestAF" */;
+			buildConfigurationList = 1A9C8DB41AAEA69C007C6156 /* Build configuration list for PBXProject "SpringAutoStartIssue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +202,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A9C8DB81AAEA69C007C6156 /* TestAF */,
-				1A9C8DCD1AAEA69D007C6156 /* TestAFTests */,
+				1A9C8DB81AAEA69C007C6156 /* SpringAutoStartIssue */,
+				1A9C8DCD1AAEA69D007C6156 /* SpringAutoStartIssueTests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,8 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5804621AAEB2F9002AEBF7 /* UnwindSegue.swift in Sources */,
 				1A9C8DC11AAEA69C007C6156 /* ViewController.swift in Sources */,
+				1A5804541AAEA946002AEBF7 /* Spring.swift in Sources */,
 				1A9C8DBF1AAEA69C007C6156 /* AppDelegate.swift in Sources */,
+				1A5804601AAEAA32002AEBF7 /* DetailViewController.swift in Sources */,
+				1A58045B1AAEA946002AEBF7 /* SpringView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +255,7 @@
 /* Begin PBXTargetDependency section */
 		1A9C8DD01AAEA69D007C6156 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A9C8DB81AAEA69C007C6156 /* TestAF */;
+			target = 1A9C8DB81AAEA69C007C6156 /* SpringAutoStartIssue */;
 			targetProxy = 1A9C8DCF1AAEA69D007C6156 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -337,8 +362,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestAF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpringAutoStartIssue;
 			};
 			name = Debug;
 		};
@@ -347,8 +373,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestAF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpringAutoStartIssue;
 			};
 			name = Release;
 		};
@@ -366,8 +393,8 @@
 				);
 				INFOPLIST_FILE = TestAFTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAF.app/TestAF";
+				PRODUCT_NAME = SpringAutoStartIssueTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringAutoStartIssue.app/SpringAutoStartIssue";
 			};
 			name = Debug;
 		};
@@ -381,15 +408,15 @@
 				);
 				INFOPLIST_FILE = TestAFTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAF.app/TestAF";
+				PRODUCT_NAME = SpringAutoStartIssueTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringAutoStartIssue.app/SpringAutoStartIssue";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A9C8DB41AAEA69C007C6156 /* Build configuration list for PBXProject "TestAF" */ = {
+		1A9C8DB41AAEA69C007C6156 /* Build configuration list for PBXProject "SpringAutoStartIssue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A9C8DD61AAEA69D007C6156 /* Debug */,
@@ -398,21 +425,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A9C8DD81AAEA69D007C6156 /* Build configuration list for PBXNativeTarget "TestAF" */ = {
+		1A9C8DD81AAEA69D007C6156 /* Build configuration list for PBXNativeTarget "SpringAutoStartIssue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A9C8DD91AAEA69D007C6156 /* Debug */,
 				1A9C8DDA1AAEA69D007C6156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1A9C8DDB1AAEA69D007C6156 /* Build configuration list for PBXNativeTarget "TestAFTests" */ = {
+		1A9C8DDB1AAEA69D007C6156 /* Build configuration list for PBXNativeTarget "SpringAutoStartIssueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A9C8DDC1AAEA69D007C6156 /* Debug */,
 				1A9C8DDD1AAEA69D007C6156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestAF.xcodeproj">
+      location = "self:SpringAutoStartIssue.xcodeproj">
    </FileRef>
 </Workspace>
